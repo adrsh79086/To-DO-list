@@ -115,4 +115,31 @@
  .toDoList li:hover {
 	 text-decoration: line-through wavy #24bffb;
 }
- 
+.clear-all-button {
+    padding: 0.5rem 1rem;
+    font-family: 'Gochi Hand', cursive;
+    background-color: #494a4b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 0 #494a4b;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clear-all-button:hover {
+    background-color: #494a4b;
+    transform: scale(1.05);
+}
+
+.clear-all-button:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+.clear-all {
+    background-color: #494a4b; /* Red for distinction */
+}
+
+.clear-all:hover {
+    background-color: #494a4b; /* Slightly darker red */
+}
